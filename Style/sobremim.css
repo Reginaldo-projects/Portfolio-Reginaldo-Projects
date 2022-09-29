@@ -1,0 +1,127 @@
+
+#sobremim {
+    width: 100%;
+    background-color: #212d49;
+    
+   
+    
+}
+
+
+.sobremim {
+    
+    display: flex;
+    align-items: center;
+    /*ajuste de página*/
+    padding-bottom: 500px;
+    /*Fim ajuste de página*/
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.ajustador-2 {
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 69px;
+    max-width: auto;
+    margin: 0 auto;
+}
+.sobremim h2{
+    text-align: center;
+    padding-left: 0%;
+    right: auto;
+    font-family: 'Times new roma';
+   
+    
+    
+}
+    
+
+h2 {
+    font-family: 'fantasia',fantasy;
+    font-size: 45px;
+    color: rgb(241, 238, 238);
+}
+
+
+@keyframes html {
+    0% {
+        bottom: 0;
+        left: 150px;
+    }
+    100% {
+        bottom: 0;
+        left: 50px;
+    }
+}
+
+@keyframes css {
+    0% {
+        bottom: 0;
+        left: 50px;
+    }
+    100% {
+        bottom: 0;
+        left: 250px;
+    }
+}
+
+.sobremim{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sobremim p {
+    text-indent: 50px;
+    font-size: 20px;
+    max-width: 909.25px;
+   
+    
+}
+.text00{
+    color: rgb(250, 245, 245);
+}
+.text{
+    text-align: center;
+    color: rgb(47, 180, 233);
+}
+.text a{
+    margin-left: -60px;
+    color: rgb(47, 180, 233);
+}
+.text a:hover{
+    color: rgb(155, 207, 32);
+}
+
+@media (max-width:1200px) {
+    .ajustador-2 {
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .ajustador-2 p {
+        font-size: 15px;
+    }
+    .sobremim p {
+        text-indent: 10;
+        text-align: justify;
+    }
+}
+
+@media(max-width:950px){
+
+   
+    .ajustador-2 {
+        max-width: 350px;
+        padding: 70px 30px;
+    }
+
+}
+    
