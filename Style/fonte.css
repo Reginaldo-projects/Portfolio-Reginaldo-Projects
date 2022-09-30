@@ -1,38 +1,21 @@
 
 #contato {
     background-color: #1d4ca3;
-    
+    align-items: center;
 }
 .contatoem{
-    padding: 40px 0;
-    display: flex;
+    padding: 60px 0;
     flex-wrap: wrap;
     gap: 87px;
-    margin: 0 auto;
+    margin: auto;
 
-
-}
-.fonte {
-    width: 100%;
-    background-color:#1b438d;
-}
-
-.fonte-conteiner {
-    max-width: 1000px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .contato-creditos {
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
-    padding: 10px 0;
-    text-align:center;
-    width: auto;
-   
+    text-align:center;  
 }
 
 .icons {
@@ -42,19 +25,6 @@
     margin: 20px;
 }
 
-@media (max-width:1200px) {
-    .contato-creditos{
-        text-align: center;
-       
-    }
-    
-    .footer-conteiner {
-        display: flex;
-        flex-direction: column ;
-        padding-bottom: 10px;
-    }
-   
-}
 
 .links1, .links2 {
     height: 52px;
@@ -78,10 +48,58 @@
     background-image: url(../img/linkedinff2.svg);
 }
 
-.transparente {
-    transition: ease-in-out 0.3s;
+
+
+/*ajuste de página responsivo--*/
+
+@media only screen and  (max-width:600px){
+   .fonte-conteiner{
+    align-items: center;
+   }
+   .icons{
+    margin-left: 100px;
+   }
+ 
+
+}
+@media only screen and  (min-width:600px){
+    .fonte-conteiner{
+        align-items: center;
+       }
+
 }
 
-.transparente:hover {
-    opacity: 20;
+@media only screen and  (min-width:768px){
+    .fonte-conteiner {
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
 }
+
+@media only screen and  (min-width:992px){
+    .fonte-conteiner {
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+
+@media only screen and  (min-width:1200px){
+    .fonte-conteiner {
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+
+/*ajuste de página responsivo--*/
