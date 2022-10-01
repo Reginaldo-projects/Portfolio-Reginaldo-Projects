@@ -52,24 +52,25 @@
 
 /*ajuste de página responsivo--*/
 
-@media only screen and  (max-width:600px){
+@media only screen and  (max-width:720px){
    .fonte-conteiner{
     align-items: center;
    }
    .icons{
-    margin-left: 100px;
+    margin-left: 35%;
+    margin-right: 35%;
    }
  
 
 }
-@media only screen and  (min-width:600px){
+@media only screen and  (min-width:720px){
     .fonte-conteiner{
         align-items: center;
        }
 
 }
 
-@media only screen and  (min-width:768px){
+@media only screen and  (min-width:820px){
     .fonte-conteiner {
         max-width: 1000px;
         margin: 0 auto;
@@ -77,6 +78,10 @@
         justify-content: space-between;
         align-items: center;
     }
+    .icons{
+        margin-left: 35%;
+        margin-right: 35%;
+       }
 
 }
 
@@ -88,6 +93,10 @@
         justify-content: space-between;
         align-items: center;
     }
+    .icons{
+        margin-left: 35%;
+        margin-right: 35%;
+       }
 
 }
 
@@ -99,6 +108,10 @@
         justify-content: space-between;
         align-items: center;
     }
+    .icons{
+        margin-left: 35%;
+        margin-right: 35%;
+       }
 
 }
 
