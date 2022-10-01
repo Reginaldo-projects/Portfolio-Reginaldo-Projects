@@ -83,7 +83,7 @@ html{
     background: linear-gradient( #1c1c1ff6 25.00%,#191c9e 50.00%,#1c1c1ff6  80.00%);  
     height: 100vh;
     align-items: center;
-    padding: 80px;
+    padding: 40px;
         
 }
 
@@ -163,38 +163,41 @@ html{
     display: none;
 }
 
-@media only screen and  (max-width:660px){
+@media only screen and  (max-width:740px){
 
     .inicioesquerdo{
     padding-top: 100px;
 
     }
-    .descricao{
-        margin-top: -30px;
-       
 
-    }
     .foto {
         align-items: center;
         text-align: center;
         width: 300px;
         height: 250px;
         grid-area: foto;
-        margin-top: 80px;   
+        margin-top: 140px;   
+    }
+
+    .linkedin{
+       
+        width: auto;
+       
     }
 
  
     .descricao {
+
         display: inline-block;
         font-size: 25px;
         grid-area: descricao;
         color:white;
         text-align: center;
         margin-left: 40px;
-       
+        margin-top: 20px;
     }
     }
-@media only screen and  (min-width:660px){
+@media only screen and  (min-width:740px){
     .inicioesquerdo{
         padding-top: 200px;
        
@@ -229,44 +232,49 @@ html{
 
     
     }
-@media only screen and  (min-width:768px){
-    .centralizador{
-        align-items: center;    
-        padding-top: 10px; 
-        padding-left: 40px;
-        padding-right: 60px;
+@media only screen and  (min-width:820px){
+    .inicioesquerdo{
+        padding-top: 200px;
+        margin-bottom: 50px;
     }
-
-    .descricao {
+       .descricao {
         display: inline-block;
         margin-top: 20px;
-        max-width: 542px;
-        font-size: 25px;
         grid-area: descricao;
         color:white;
         text-align: center;
-        margin-left: 10px;
+       margin-left: 100px;
+        
+    }
+    .linkedin {
+        width: 500px;
+       
+
+    }
+  
+    .foto {
+        padding: 5px 0;
+        align-items: center;
+        text-align: center;
+        align-items: center;
+        text-align: center;
+        padding-right: 60px ;
+        width: 400px;
+        height: 250px;
+        grid-area: foto;
+        padding-top: 100px;
     }
 
-  
-    .linkedin {
-        width: 200px;
-        margin-top: 15px;
-        text-align: center;
+   
+    
     }
+@media only screen and  (min-width:992px){
     .foto {
         margin-left: 5px auto;
         padding-right: 60px ;
         width: 400px;
         height: 250px;
         grid-area: foto;
-    }
-   
-    
-    }
-@media only screen and  (min-width:992px){
-    .foto{
-        margin-left: 20px auto;
     }
     
     }
@@ -395,9 +403,7 @@ html{
         text-align: center;
     }
 
-    .descricao {
-        font-size: 20px;
-    }
+  
 
     .nome {
         font-size: 30px;
@@ -506,6 +512,8 @@ html{
         margin-top: -10px;
         margin-right: 50px;
         padding: auto;
+        text-align: center;
+        align-items: center;
       
     }
     .logo{

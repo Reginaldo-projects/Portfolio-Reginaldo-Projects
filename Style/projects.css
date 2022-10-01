@@ -98,10 +98,9 @@ text-align: center;
 
 /*ajuste de página responsivo--*/
 
-@media only screen and  (max-width:660px){
+@media only screen and  (max-width:740px){
     .proconteiner{
         height: 260px;
-        max-width: 380px;
         text-align: center;
     }
 
@@ -111,7 +110,7 @@ text-align: center;
  
 
 }
-@media only screen and  (min-width:660px){
+@media only screen and  (min-width:740px){
     .proconteiner{
         height: 280px;
         width: 440px;
@@ -129,7 +128,7 @@ text-align: center;
 
 }
 
-@media only screen and  (min-width:768px){
+@media only screen and  (min-width:820px){
     .proconteiner{
         height: 280px;
         width: 440px;
@@ -141,7 +140,7 @@ text-align: center;
         height:600px;
         width: 680px;
         border-radius: 10px;
-        display: flex;
+     
         align-items: center;
     }
 
