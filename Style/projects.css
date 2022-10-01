@@ -100,26 +100,21 @@ text-align: center;
 
 @media only screen and  (max-width:660px){
     .proconteiner{
-        height: 280px;
-        width: 300px; 
-        align-items: center;
-    }
-    .proauto iframe{
-        background-color: #C4C4C4;
         height: 260px;
-        width: 260px;
-        border-radius: 5px;
-        display: flex;
+        max-width: 380px;
+        text-align: center;
+    }
+
+    .proconteiner iframe{
         align-items: center;
     }
-  
  
 
 }
 @media only screen and  (min-width:660px){
     .proconteiner{
         height: 280px;
-        width: 240px;
+        width: 440px;
         align-items: center;
     }
     .proauto iframe{
@@ -137,7 +132,7 @@ text-align: center;
 @media only screen and  (min-width:768px){
     .proconteiner{
         height: 280px;
-        width: 280px;
+        width: 440px;
         
     }
     .proauto iframe{
@@ -175,6 +170,7 @@ text-align: center;
     .proconteiner{
         width: 700px;
         height: 280px;
+        float: left;
        
     }
     .proauto iframe{
@@ -233,7 +229,7 @@ text-align: center;
 
     align-items: center;
     color: white;
-    float: left;
+    
    
 }
 

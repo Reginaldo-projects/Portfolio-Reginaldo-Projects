@@ -167,10 +167,10 @@ html{
 
     .inicioesquerdo{
     padding-top: 100px;
-    margin-left: 45px;
+
     }
     .descricao{
-        margin-top: -20px;
+        margin-top: -30px;
        
 
     }
@@ -183,16 +183,14 @@ html{
         margin-top: 80px;   
     }
 
-    .linkedin {
-        width: 200px;    
-       
-    }
+ 
     .descricao {
         display: inline-block;
         font-size: 25px;
         grid-area: descricao;
         color:white;
         text-align: center;
+        margin-left: 40px;
        
     }
     }
@@ -213,7 +211,7 @@ html{
         margin-left: 10px;
     }
     .linkedin {
-        width: 200px;
+        width: 300px;
         text-align: center;
     }
   
@@ -250,20 +248,27 @@ html{
         margin-left: 10px;
     }
 
-    .foto{
-        margin-left: 5px auto;
-    }
+  
     .linkedin {
-        width: 100px;
+        width: 200px;
         margin-top: 15px;
         text-align: center;
     }
+    .foto {
+        margin-left: 5px auto;
+        padding-right: 60px ;
+        width: 400px;
+        height: 250px;
+        grid-area: foto;
+    }
+   
     
     }
 @media only screen and  (min-width:992px){
     .foto{
         margin-left: 20px auto;
     }
+    
     }
 @media only screen and  (min-width:1200px){
     .descricao {
@@ -281,10 +286,10 @@ html{
     }
     
     .linkedin {
-        width: 500px;
+        width: 400px;
         margin-top: 15px;
         text-align: center;
-        margin-left: 20px;
+        margin-left: 60px;
     }
     
 
@@ -396,10 +401,6 @@ html{
 
     .nome {
         font-size: 30px;
-    }
-
-    .esquerda, .direita {
-        margin: 0;
     }
 
     .logo {

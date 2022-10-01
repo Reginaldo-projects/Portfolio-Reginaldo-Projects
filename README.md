@@ -25,7 +25,7 @@
 ## 🏷 Descrição 
 
 <p align="justify">
-Portfólio com projetos que desenvolvi ao longo da minha carreira profisional e de estudante.
+Portfólio com projetos que desenvolvi ao longo da minha carreira profissional e de estudante.
 <br />
     Alguns projetos estão em desenvolvimento.
 <br />
