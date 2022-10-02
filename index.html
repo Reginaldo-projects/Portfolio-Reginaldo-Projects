@@ -38,12 +38,12 @@
   <div class="barra">
 	<div class="menu-centro">
 	  <div class="barra-conteiner centralizador">
-		<div class="logo esquerda">
+		<div class="logo esquerda" data-anima="esquerda">
 		  <a href="index.html"
 			><img src="./img/Logo_regis.svg" alt="logo"
 		  /></a>
 		</div>
-		<nav class="direita">
+		<nav class="direita" data-anima="esquerda">
 		  <ul onclick="getElementById('close-menu').checked=true;">
 			<li><a href="#inicio">Início</a></li>
 			<li><a href="#sobremim">Sobre mim</a></li>
@@ -58,7 +58,7 @@
   <!-- menu -->
 
   <!-- primeira tela -->
-  <section id="inicio">
+  <section id="inicio"  >
 	<div class="altura-ajuste">
 	  <div class="esquedo centralizador">
 		<div class="ajustador organizador">
@@ -66,7 +66,7 @@
 			
 				</div class="fotodireito">
 		  
-		  <div class="foto">
+		  <div class="foto"  data-anima="centro">
 			<img
 			  class="foto2"
 			  src="./img/eu.png"
@@ -74,8 +74,8 @@
 			/>
 		  </div>
 		</div>
-		<div class="inicioesquerdo">
-			<p class="descricao">
+		<div class="inicioesquerdo" data-anima="centro">
+			<p class="descricao" >
 			  Olá, Seja Bem Vindo 👋<br />
 			  Meu nome é<br /> Reginaldo Barbosa
 			  <br />
@@ -98,13 +98,13 @@
 
   <!-- sobre mim -->
   <section id="sobremim">
-	<div class="centralizador">
-	  <div class="ajustador-2">
+	<div class="centralizador" >
+	  <div class="ajustador-2" >
 		  </div>
 		</div>
-		<div class="sobremim">
-		  <h2>🧑‍💻Sobre mim</h2>
-		  
+		<div class="sobremim"  >
+		  <h2 >🧑‍💻Sobre mim</h2>
+		 
 		  <p class="text00">
 			Possuo vasto conhecimento em processos logísticos e durante minha carreira, tive a oportunidade 
 			de implantar alguns projetos,
@@ -113,7 +113,8 @@
 			com alguns cursos e videos no Youtube onde consegui desenvolver habilidades em várias ferramentas como Pentaho e VSCode; e no momento, estou focando
 			em programação Python nos pacotes Pandas, Matplotlib, Seaborn, Plotly, Pyautogui e Pyperclip e também JavaScripts. 
 		</p>
-		<p class="text00">Deus me dá a força necessária para seguir em frente e conseguir meus objetivos.</p>
+	
+		<p class="text00" >Deus me dá a força necessária para seguir em frente e conseguir meus objetivos.</p>
 
 		  
 		  <p class= "text">
@@ -132,8 +133,8 @@
   <!--inicio Projetos -->
   <section id="projetos">
 	
-	<div class="centralizador projetos">
-	  <h2 class="project">🏅Projetos</h2>
+	<div class="centralizador projetos" >
+	  <h2 class="project"  >🏅Projetos</h2>
 	  
 	</div>	
 	<div class="btpage">	
@@ -146,7 +147,7 @@
 		
 		<!--Tableau -->
 		<div class="ocultar0">
-				<div class="pro proconteiner">
+				<div class="pro proconteiner ">
 					<!--Tableau link-->
 					<iframe style="width:100%;height:100%" frameborder="0" marginheight="0" marginwidth="0" title="Visualização de dados" allowtransparency="true" allowfullscreen="true" class="tableauViz"  src="https://public.tableau.com/shared/DB3TSSHNX?:embed=y&amp;:showVizHome=no&amp;:host_url=https%3A%2F%2Fpublic.tableau.com%2F&amp;:embed_code_version=3&amp;:toolbar=yes&amp;:animate_transition=yes&amp;:display_static_image=no&amp;:display_spinner=no&amp;:display_overlay=yes&amp;:display_count=yes&amp;:language=pt-BR&amp;:loadOrderID=0"></iframe>
 	                  
@@ -302,10 +303,10 @@
   <!-- Habilidades -->
   <section id="habilidades">
 	<div class="centralizador">
-	  <div class="habilidades-pd">
+	  <div class="habilidades-pd" >
 		<h2 class="project">🤺Habilidades</h2>
 		
-		<div class="conteiner-descricao">
+		<div class="conteiner-descricao" >
 			<p class="texto-descricao  descricao-skill">
 			  Clique no icone para verificar a descrição.
 			</p>
@@ -348,7 +349,7 @@
 
 		<div class="skills-descricao">
 		  <div class="conteiner-skills">
-			<div class="skill-box skill1 tableau-skill">
+			<div class="skill-box skill1 tableau-skill" >
 			  
 				<img
 				class="icones-habilidades"
@@ -421,13 +422,13 @@
   <section id="contato">
  
 	<div class="contatoem">
-	<div class="fonte-conteiner">
-	  <div class="contato-creditos">
+	<div class="fonte-conteiner" >
+	  <div class="contato-creditos" >	
 		E-mail: reginaldobs2011@gmail.com <br />
 		Elaborado por Reginaldo <br />
 
 	  </div>
-	  <div class="icons">
+	  <div class="icons" >
 		<div class="links links1">
 		  <a href="https://github.com/reginaldo-projects" target="_blank">
 			<img
@@ -460,6 +461,7 @@
 
 <script src="javascripts/scripts.js"></script>
 <script  src="javascripts/projects.js"></script>
+<script  src="javascripts/animation.js"></script>
 
 </body>
 

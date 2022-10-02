@@ -124,4 +124,25 @@ h2 {
     }
 
 }
-    
+
+    /* Animation */
+[data-anima]{
+    opacity: 0;
+    transition: 0.5s;
+}
+[data-anima="esquerda"]{
+    transform:translate3d(-50px,0px,0px);/*x , y , z*/
+}
+[data-anima="direita"]{
+    transform:translate3d(0px,0px,-50px);/*x , y , z*/
+}
+[data-anima="centro"]{
+    transform:translate3d(0px,-50px,0px);/*x , y , z*/
+}
+
+
+[data-anima].animate{
+    opacity: 1;
+    transform: translate3d(0px,0px,0px);
+}
+/* Fim Animation */

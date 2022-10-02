@@ -16,6 +16,7 @@ ul {
 
 }
 
+
 .page{
     width: 100%;
     margin-left: 0%;
@@ -43,14 +44,14 @@ img {
 }
 
 .logo {
- 
+    margin-top: 10px;
 	width: 90px;
     
 }
 
 .barra {
     width: 100%;
-    
+
     background: #28269269;
     backdrop-filter: blur(10px);
     position: fixed;
@@ -64,7 +65,8 @@ img {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    
+        padding-left: 10px;
+    padding-right: 40px;
 }
 
 
@@ -167,6 +169,8 @@ html{
 
     .inicioesquerdo{
     padding-top: 100px;
+    align-items: center;
+    text-align: center;
 
     }
 
@@ -179,11 +183,7 @@ html{
         margin-top: 140px;   
     }
 
-    .linkedin{
-       
-        width: auto;
-       
-    }
+  
 
  
     .descricao {
@@ -193,8 +193,7 @@ html{
         grid-area: descricao;
         color:white;
         text-align: center;
-        margin-left: 30px;
-        margin-top: 20px;
+       
     }
     }
 @media only screen and  (min-width:740px){
@@ -246,11 +245,7 @@ html{
        margin-left: 100px;
         
     }
-    .linkedin {
-        width: 500px;
-       
-
-    }
+    
   
     .foto {
         padding: 5px 0;
@@ -281,15 +276,12 @@ html{
 @media only screen and  (min-width:1200px){
     .descricao {
         display: inline-block;
-        margin-top: 20px;
+margin-left: 110px;
         max-width: 542px;
         font-size: 25px;
         grid-area: descricao;
         color:white;
         text-align: center;
-        margin-left: 10px;
-        margin-right: 40px;
-        margin-left: 90px;
         margin-top: 60px;
     }
     
@@ -297,7 +289,7 @@ html{
         width: 400px;
         margin-top: 15px;
         text-align: center;
-        margin-left: 60px;
+        margin-left: 30px;
     }
     
 
@@ -529,3 +521,25 @@ html{
 /* fim da configuração moobile */
 
 }
+
+/* Animation */
+[data-anima]{
+    opacity: 0;
+    transition: 0.5s;
+}
+[data-anima="esquerda"]{
+    transform:translate3d(-10px,0px,0px);/*x , y , z*/
+}
+[data-anima="direita"]{
+    transform:translate3d(10px,0px,0px);/*x , y , z*/
+}
+[data-anima="centro"]{
+    transform:translate3d(0px,-10px,0px);/*x , y , z*/
+}
+
+
+[data-anima].animate{
+    opacity: 1;
+    transform: translate3d(0px,0px,0px);
+}
+/* Fim Animation */
