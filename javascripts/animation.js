@@ -39,3 +39,20 @@ function animascroll() {
            
         }, 200));
     }
+
+/*digitação*/
+
+function typewriter (regis){
+  const textarray = regis.innerHTML.split('');
+  regis.innerHTML ='';
+  textarray.forEach((letra,i) => {
+setTimeout(function(){
+regis.innerHTML += letra;
+},75 * i)
+  })
+  console.log(textarray)
+
+}
+
+const regis = document.querySelector('.diginome');
+typewriter(regis);
