@@ -36,6 +36,6 @@ function animascroll() {
         if(elementos.length){
         window .addEventListener('scroll', debounce(function(){
             animascroll();
-            console.log('qualnjnj');
+           
         }, 200));
     }
