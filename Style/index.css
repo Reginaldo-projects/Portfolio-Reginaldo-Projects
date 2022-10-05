@@ -173,6 +173,7 @@ html{
 @keyframes Animacao {
     from {
         left:-2px;
+        top: 2px;
     }
     to {
         height: 2px;
@@ -229,8 +230,7 @@ html{
 @media only screen and  (min-width:740px){
     .inicioesquerdo{
         padding-top: 200px;
-       
-      margin-bottom: 50px;
+        margin-bottom: 50px;
     }
        .descricao {
         display: inline-block;
@@ -243,7 +243,7 @@ html{
         margin-left: 10px;
     }
     .linkedin {
-        width: 300px;
+        
         text-align: center;
     }
   
