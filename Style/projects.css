@@ -32,7 +32,7 @@
 }
 
 button {
-    width: 200px;
+   
     height: auto;
     margin-bottom: 10px;
     padding: 5px ;
@@ -93,7 +93,9 @@ text-align: center;
     text-indent: 3ch;
     
 }
-
+a .sc{
+    text-align: center;
+}
 
 
 /*ajuste de página responsivo--*/
@@ -132,7 +134,7 @@ text-align: center;
     .proconteiner{
         height: 280px;
         width: 440px;
-        
+        float: left;
     }
     .proauto iframe{
         margin-right: 2px;
@@ -140,7 +142,6 @@ text-align: center;
         height:600px;
         width: 680px;
         border-radius: 10px;
-     
         align-items: center;
     }
 
@@ -149,7 +150,8 @@ text-align: center;
 @media only screen and  (min-width:992px){
     .proconteiner{
         height: 280px;
-        width: 570px;
+        width: 650px;
+        float: left;
         
     }
     .proauto iframe{
@@ -176,14 +178,14 @@ text-align: center;
         margin-right: 2px;
         background-color: #C4C4C4;
         height:300px;
-        
         border-radius: 10px;
-        
         align-items: center;
+    }
+    button {
+        width: 200px;
     }
 
 }
-
 /*ajuste de página responsivo--*/
 
 
@@ -249,63 +251,3 @@ text-align: center;
     text-align: center;
     
 }
-
-
-/*--Ajuste de tela --*/
-
-@media only screen and  (max-width:600px){
-   
-  
-    #projetos {
-        /*ajuste de página*/
-        padding-bottom: 100px;
-        /*Fim ajuste de página*/
-    }
-
-}
-@media only screen and  (min-width:600px){
-    #projetos {
-        /*ajuste de página*/
-        padding-bottom: 100px;
-        /*Fim ajuste de página*/
-        
-    }
-
-}
-
-@media only screen and  (min-width:768px){
-    #projetos {
-        /*ajuste de página*/
-        padding-bottom: 500px;
-        /*Fim ajuste de página*/
-    }
-}
-
-@media only screen and  (min-width:992px){
-
-    #projetos {
-        /*ajuste de página*/
-        padding-bottom: 500px;
-        /*Fim ajuste de página*/
-    }
-
-}
-
-@media only screen and  (min-width:1200px){
-  
-    #projetos {
-        /*ajuste de página*/
-        padding-bottom: 100px;
-        /*Fim ajuste de página*/
-    }
-
-}
-
-/* ajuste de tela fim --*/
-
-
-
-
-
-
-

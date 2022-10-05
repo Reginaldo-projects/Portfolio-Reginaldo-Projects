@@ -18,7 +18,7 @@ const animaclass='animate';
 
 
 function animascroll() {
-    const windowTop= window.pageXOffset + (window.innerHeight * 0.75);
+    const windowTop= window.pageXOffset + (window.innerHeight*1.20);
         elementos.forEach(function(element){
 
             if((windowTop) > element.offsetTop){
