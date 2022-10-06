@@ -167,26 +167,9 @@ padding-bottom: 5px;
     .conteiner-descricao {
         margin-left: 5px;
         margin-right: 5px;
-        text-align: justify;
-    }
-
-}
-
-@media only screen and  (min-width:820px){
-    .conteiner-descricao {
-        margin-left: 5px;
-        margin-right: 5px;
-        text-align: justify;
-    }
-
-}
-
-@media only screen and  (min-width:992px){
-    .conteiner-descricao {
-        margin-left: 5px;
-        margin-right: 5px;
         text-align: center;
     }
+
 }
 
 @media only screen and  (min-width:1200px){
