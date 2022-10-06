@@ -32,9 +32,7 @@ padding-bottom: 5px;
 .conteiner-descricao{
     align-items: center;
     text-align: center;
-    padding: 5px;
     padding-top: 4px;
-    padding-left: 5px;
     padding-bottom: 5px;
     color: white;
     font-family: 'Quando', serif;
@@ -45,7 +43,7 @@ padding-bottom: 5px;
 .conteiner-descricao{
     display: block;
     text-indent: 20px;
-    text-align: center;
+    
 }
 
 
@@ -154,3 +152,51 @@ padding-bottom: 5px;
 #fundo {
     fill: rgb(88, 83, 83);
 }
+
+/*ajuste de página responsivo--*/
+
+@media only screen and  (max-width:740px){
+    .conteiner-descricao {
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: justify;
+    }
+
+}
+@media only screen and  (min-width:740px){
+    .conteiner-descricao {
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: justify;
+    }
+
+}
+
+@media only screen and  (min-width:820px){
+    .conteiner-descricao {
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: justify;
+    }
+
+}
+
+@media only screen and  (min-width:992px){
+    .conteiner-descricao {
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: center;
+    }
+}
+
+@media only screen and  (min-width:1200px){
+    .conteiner-descricao {
+        padding-left: 10%;
+        padding-right: 10%;
+        align-items: center;
+        
+    }
+  
+
+}
+/*ajuste de página responsivo--*/
