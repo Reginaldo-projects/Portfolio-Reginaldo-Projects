@@ -7,17 +7,17 @@
 
 ### Tópicos 
 
-- [Descrição](#descrição)
+- 🏷[Descrição](#descrição)
 
-- [Seções](#seções)
+- 📚[Seções](#seções)
 
-- [Resultado](#resultado)
+- 💻[Resultado](#resultado)
 
-- [Link](#link)
+- 🗳[Link](#link)
 
-- [Licença](#licença)
+- 📌[Licença](#licença)
 
-- [Autor](#autor)
+- 👍[Autor](#autor)
 
 
 
