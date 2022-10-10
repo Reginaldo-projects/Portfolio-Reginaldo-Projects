@@ -7,17 +7,17 @@
 
 ### Tópicos 
 
-- [Descrição](#descrição)
+- 🏷[Descrição](#descrição)
 
-- [Seções](#seções)
+- 📚[Seções](#seções)
 
-- [Resultado](#resultado)
+- 💻[Resultado](#resultado)
 
-- [Link](#link)
+- 🗳[Link](#link)
 
-- [Licença](#licença)
+- 📌[Licença](#licença)
 
-- [Autor](#autor)
+- 👍[Autor](#autor)
 
 
 
@@ -25,7 +25,7 @@
 ## 🏷 Descrição 
 
 <p align="justify">
-Portfólio com projetos que desenvolvi ao longo da minha carreira profissional e de estudante.
+Portfólio criado em HTML,CSS e JavaScript com finalidade de postar todos os projetos desenvolvidos por mim.
 <br />
     Alguns projetos estão em desenvolvimento.
 <br />
